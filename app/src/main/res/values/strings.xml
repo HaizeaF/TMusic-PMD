@@ -1,0 +1,12 @@
+<resources>
+    <string name="text_go_to_SignUp">Don't you have an account?</string>
+    <string name="todo">TODO</string>
+    <string name="app_name">T-MUSIC</string>
+    <string name="text_signUp">Sign Up</string>
+    <string name="text_username">Username</string>
+    <string name="text_email">Email</string>
+    <string name="text_passwd">Password</string>
+    <string name="text_confirmPasswd">Confirm Password</string>
+    <string name="text_alreadyAccount">Already have an account?</string>
+    <string name="text_signIn">Sign In</string>
+</resources>
