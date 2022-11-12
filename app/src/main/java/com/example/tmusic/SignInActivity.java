@@ -22,7 +22,7 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signin);
 
-        buttonSignIn = (Button) findViewById(R.id.buttonSignIn);
+        buttonSignIn = (Button) findViewById(R.id.buttonHome);
         buttonSignIn.setOnClickListener(this::onClick);
         goSignUp = (Button) findViewById(R.id.goSignUp);
         goSignUp.setOnClickListener(this::onClick);
@@ -36,7 +36,7 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
     @Override
     public void onClick(View v) {
         Button buttonClicked = (Button) findViewById(v.getId());
-        if(buttonClicked.equals(findViewById(R.id.buttonSignIn))){
+        if(buttonClicked.equals(findViewById(R.id.buttonHome))){
 
         } else if(buttonClicked.equals(findViewById(R.id.goSignUp))){
 

@@ -68,6 +68,11 @@ string app_name
 string text_alreadyAccount
 string text_confirmPasswd
 string text_email
+string text_errorConfirmPasswd
+string text_errorDB
+string text_errorEmail
+string text_errorPasswd
+string text_errorUser
 string text_go_to_SignUp
 string text_passwd
 string text_signIn

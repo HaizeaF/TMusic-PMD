@@ -6,102 +6,113 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="19"
-8-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml
+8-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml
+9-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml:5:5-41:19
+11-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:5:5-48:19
 12        android:allowBackup="true"
-12-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml:6:9-35
+12-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.7.0] C:\Users\badio\.gradle\caches\transforms-3\5586099dc2be2a001572cf14c2426ba8\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.7.0] C:\Users\haize\.gradle\caches\transforms-3\5586099dc2be2a001572cf14c2426ba8\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 14        android:dataExtractionRules="@xml/data_extraction_rules"
-14-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml:7:9-65
+14-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:7:9-65
 15        android:debuggable="true"
 16        android:fullBackupContent="@xml/backup_rules"
-16-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml:8:9-54
+16-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:8:9-54
 17        android:icon="@mipmap/ic_launcher"
-17-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml:9:9-43
+17-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:9:9-43
 18        android:label="@string/app_name"
-18-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml:10:9-41
+18-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:10:9-41
 19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml:11:9-54
+19-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:11:9-54
 20        android:supportsRtl="true"
-20-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml:12:9-35
+20-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:12:9-35
 21        android:testOnly="true"
 22        android:theme="@style/Theme.TMusic" >
-22-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml:13:9-44
+22-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:13:9-44
 23        <activity
-23-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml:15:9-27:20
+23-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:15:9-18:20
 24            android:name="com.example.tmusic.AuthorsActivity"
-24-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml:16:13-44
+24-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:16:13-44
 25            android:exported="true" >
-25-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml:17:13-36
-26            <intent-filter>
-26-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml:18:13-22:29
-27                <action android:name="android.intent.action.MAIN" />
-27-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml:19:17-69
-27-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml:19:25-66
-28
-29                <category android:name="android.intent.category.LAUNCHER" />
-29-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml:21:17-77
-29-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml:21:27-74
-30            </intent-filter>
-31
-32            <meta-data
-32-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml:24:13-26:36
-33                android:name="android.app.lib_name"
-33-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml:25:17-52
-34                android:value="" />
-34-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml:26:17-33
-35        </activity>
-36        <activity
-36-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml:28:9-40:20
-37            android:name="com.example.tmusic.SignInActivity"
-37-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml:29:13-43
-38            android:exported="true" >
-38-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml:30:13-36
-39            <intent-filter>
-39-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml:18:13-22:29
-40                <action android:name="android.intent.action.MAIN" />
-40-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml:19:17-69
-40-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml:19:25-66
-41
-42                <category android:name="android.intent.category.LAUNCHER" />
-42-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml:21:17-77
-42-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml:21:27-74
-43            </intent-filter>
-44
-45            <meta-data
-45-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml:24:13-26:36
-46                android:name="android.app.lib_name"
-46-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml:25:17-52
-47                android:value="" />
-47-->C:\Users\badio\Desktop\RetoPMD\TMusic-PMD\app\src\main\AndroidManifest.xml:26:17-33
-48        </activity>
-49
-50        <provider
-50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\badio\.gradle\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-51            android:name="androidx.startup.InitializationProvider"
-51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\badio\.gradle\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-52            android:authorities="com.example.tmusic.androidx-startup"
-52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\badio\.gradle\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
-53            android:exported="false" >
-53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\badio\.gradle\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-54            <meta-data
-54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\badio\.gradle\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-55                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\badio\.gradle\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-56                android:value="androidx.startup" />
-56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\badio\.gradle\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
-57            <meta-data
-57-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\badio\.gradle\caches\transforms-3\dd1064e81b3445eb173cd45521bfd469\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-58                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-58-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\badio\.gradle\caches\transforms-3\dd1064e81b3445eb173cd45521bfd469\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-59                android:value="androidx.startup" />
-59-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\badio\.gradle\caches\transforms-3\dd1064e81b3445eb173cd45521bfd469\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-60        </provider>
-61    </application>
-62
-63</manifest>
+25-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:17:13-36
+26        </activity>
+27        <activity
+27-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:19:9-22:20
+28            android:name="com.example.tmusic.ModifyActivity"
+28-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:20:13-43
+29            android:exported="true" >
+29-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:21:13-36
+30        </activity>
+31        <activity
+31-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:23:9-26:20
+32            android:name="com.example.tmusic.PlayerActivity"
+32-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:24:13-43
+33            android:exported="true" >
+33-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:25:13-36
+34        </activity>
+35        <activity
+35-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:27:9-30:20
+36            android:name="com.example.tmusic.SignInActivity"
+36-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:28:13-43
+37            android:exported="true" >
+37-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:29:13-36
+38        </activity>
+39        <activity
+39-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:31:9-34:20
+40            android:name="com.example.tmusic.SongsActivity"
+40-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:32:13-42
+41            android:exported="true" >
+41-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:33:13-36
+42        </activity>
+43        <activity
+43-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:35:9-47:20
+44            android:name="com.example.tmusic.SignUpActivity"
+44-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:36:13-43
+45            android:exported="true" >
+45-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:37:13-36
+46            <intent-filter>
+46-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:38:13-42:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:39:17-69
+47-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:39:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:41:17-77
+49-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:41:27-74
+50            </intent-filter>
+51
+52            <meta-data
+52-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:44:13-46:36
+53                android:name="android.app.lib_name"
+53-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:45:17-52
+54                android:value="" />
+54-->C:\Users\haize\Desktop\PMD\Reto\TMusic-PMD\app\src\main\AndroidManifest.xml:46:17-33
+55        </activity>
+56
+57        <provider
+57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\haize\.gradle\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+58            android:name="androidx.startup.InitializationProvider"
+58-->[androidx.emoji2:emoji2:1.0.0] C:\Users\haize\.gradle\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+59            android:authorities="com.example.tmusic.androidx-startup"
+59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\haize\.gradle\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+60            android:exported="false" >
+60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\haize\.gradle\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+61            <meta-data
+61-->[androidx.emoji2:emoji2:1.0.0] C:\Users\haize\.gradle\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+62                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+62-->[androidx.emoji2:emoji2:1.0.0] C:\Users\haize\.gradle\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+63                android:value="androidx.startup" />
+63-->[androidx.emoji2:emoji2:1.0.0] C:\Users\haize\.gradle\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+64            <meta-data
+64-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\haize\.gradle\caches\transforms-3\dd1064e81b3445eb173cd45521bfd469\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+65                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+65-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\haize\.gradle\caches\transforms-3\dd1064e81b3445eb173cd45521bfd469\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+66                android:value="androidx.startup" />
+66-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\haize\.gradle\caches\transforms-3\dd1064e81b3445eb173cd45521bfd469\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+67        </provider>
+68    </application>
+69
+70</manifest>
