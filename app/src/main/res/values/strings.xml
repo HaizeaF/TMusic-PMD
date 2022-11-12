@@ -1,5 +1,5 @@
 <resources>
-    <string name="text_go_to_SignUp">Don't you have an account?</string>
+    <string name="text_go_to_SignUp">Dont you have an account?</string>
     <string name="todo">TODO</string>
     <string name="app_name">T-MUSIC</string>
     <string name="text_signUp">Sign Up</string>
