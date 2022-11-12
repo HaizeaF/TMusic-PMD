@@ -1,270 +1,274 @@
 [
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.tmusic.app-main-27:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable_bg_signin.jpg.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-main-27:\\drawable\\bg_signin.jpg"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/layout_activity_signup.xml.flat",
-        "source": "com.example.tmusic.app-main-27:/layout/activity_signup.xml"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-main-27:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-xhdpi_ic_logout.png.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-xhdpi/ic_logout.png"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-mdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-mdpi_ic_person.png.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-mdpi/ic_person.png"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-xxhdpi_ic_person.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-xxhdpi\\ic_person.png"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-anydpi-v21_ic_logout.xml.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-anydpi-v21/ic_logout.xml"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-hdpi_ic_logout.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-hdpi\\ic_logout.png"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.tmusic.app-main-27:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-hdpi_ic_password.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-hdpi\\ic_password.png"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-xxhdpi_ic_person.png.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-xxhdpi/ic_person.png"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-anydpi-v21_ic_person.xml.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-anydpi-v21\\ic_person.xml"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/layout_activity_player.xml.flat",
-        "source": "com.example.tmusic.app-main-27:/layout/activity_player.xml"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-main-27:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-anydpi-v21_ic_password.xml.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-anydpi-v21/ic_password.xml"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-mdpi_ic_person.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-mdpi\\ic_person.png"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/layout_activity_main.xml.flat",
-        "source": "com.example.tmusic.app-main-27:/layout/activity_main.xml"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-xxhdpi_ic_user.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-xxhdpi\\ic_user.png"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.tmusic.app-main-27:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-ldpi\\ic_launcher_background.png"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-hdpi/ic_launcher_background.png"
-    },
-    {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable_ic_email.png.flat",
-        "source": "com.example.tmusic.app-main-27:/drawable/ic_email.png"
-    },
-    {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-ldpi_ic_password.png.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-ldpi/ic_password.png"
-    },
-    {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-xxxhdpi_ic_user.png.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-xxxhdpi/ic_user.png"
-    },
-    {
-        "merged": "com.example.tmusic.app-merged_res-25:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.tmusic.app-main-27:/mipmap-hdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-xxhdpi_ic_password.png.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-xxhdpi/ic_password.png"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-anydpi-v21_ic_password.xml.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-anydpi-v21\\ic_password.xml"
     },
     {
         "merged": "com.example.tmusic.app-merged_res-25:/layout_activity_songs.xml.flat",
         "source": "com.example.tmusic.app-main-27:/layout/activity_songs.xml"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-anydpi-v21/ic_launcher_background.xml"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-mdpi_ic_password.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-mdpi\\ic_password.png"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-mdpi_ic_user.png.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-mdpi/ic_user.png"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable_music_constrain_layout_bg.xml.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-main-27:\\drawable\\music_constrain_layout_bg.xml"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-anydpi-v21_ic_user.xml.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-anydpi-v21/ic_user.xml"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-ldpi_ic_logout.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-ldpi\\ic_logout.png"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/layout_authors_recycle_view_template.xml.flat",
-        "source": "com.example.tmusic.app-main-27:/layout/authors_recycle_view_template.xml"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-xxxhdpi_ic_person.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-xxxhdpi\\ic_person.png"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable_music_play_button_color_gradient.xml.flat",
-        "source": "com.example.tmusic.app-main-27:/drawable/music_play_button_color_gradient.xml"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-main-27:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-hdpi_ic_person.png.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-hdpi/ic_person.png"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-main-27:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.tmusic.app-main-27:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-main-27:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/layout_activity_modify.xml.flat",
-        "source": "com.example.tmusic.app-main-27:/layout/activity_modify.xml"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-xxxhdpi_ic_password.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-xxxhdpi\\ic_password.png"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-xxxhdpi_ic_logout.png.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-xxxhdpi/ic_logout.png"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-ldpi_ic_password.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-ldpi\\ic_password.png"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/xml_backup_rules.xml.flat",
-        "source": "com.example.tmusic.app-main-27:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-xhdpi_ic_password.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-xhdpi\\ic_password.png"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.tmusic.app-main-27:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-xhdpi_ic_logout.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-xhdpi\\ic_logout.png"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.tmusic.app-main-27:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-hdpi_ic_user.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-hdpi\\ic_user.png"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-ldpi_ic_person.png.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-ldpi/ic_person.png"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-xhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-xxhdpi/ic_launcher_background.png"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-xxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.tmusic.app-main-27:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-main-27:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable_ic_passwd.png.flat",
-        "source": "com.example.tmusic.app-main-27:/drawable/ic_passwd.png"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-anydpi-v21_ic_user.xml.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-anydpi-v21\\ic_user.xml"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-ldpi_ic_user.png.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-ldpi/ic_user.png"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-hdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-anydpi-v21_ic_person.xml.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-anydpi-v21/ic_person.xml"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-anydpi-v21\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-mdpi_ic_user.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-mdpi\\ic_user.png"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-xhdpi_ic_person.png.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-xhdpi/ic_person.png"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-xxxhdpi_ic_logout.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-xxxhdpi\\ic_logout.png"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-mdpi_ic_logout.png.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-mdpi/ic_logout.png"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\layout_activity_songs.xml.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-main-27:\\layout\\activity_songs.xml"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-mdpi_ic_password.png.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-mdpi/ic_password.png"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-main-27:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.tmusic.app-main-27:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-anydpi-v21_ic_logout.xml.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-anydpi-v21\\ic_logout.xml"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-xxhdpi_ic_logout.png.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-xxhdpi/ic_logout.png"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-xhdpi_ic_person.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-xhdpi\\ic_person.png"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-xxxhdpi_ic_password.png.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-xxxhdpi/ic_password.png"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\menu_button_nav_template.xml.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-main-27:\\menu\\button_nav_template.xml"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-xhdpi_ic_password.png.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-xhdpi/ic_password.png"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-main-27:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.tmusic.app-main-27:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-xxhdpi_ic_password.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-xxhdpi\\ic_password.png"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.tmusic.app-main-27:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable_ic_tmusic.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-main-27:\\drawable\\ic_tmusic.png"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-mdpi/ic_launcher_background.png"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-mdpi_ic_logout.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-mdpi\\ic_logout.png"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-xxxhdpi/ic_launcher_background.png"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-xxxhdpi_ic_user.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-xxxhdpi\\ic_user.png"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/layout_activity_signin.xml.flat",
-        "source": "com.example.tmusic.app-main-27:/layout/activity_signin.xml"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-main-27:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/layout_activity_authors.xml.flat",
-        "source": "com.example.tmusic.app-main-27:/layout/activity_authors.xml"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable_ic_passwd.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-main-27:\\drawable\\ic_passwd.png"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable_music_constrain_layout_bg.xml.flat",
-        "source": "com.example.tmusic.app-main-27:/drawable/music_constrain_layout_bg.xml"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable_ic_email.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-main-27:\\drawable\\ic_email.png"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable_ic_username.png.flat",
-        "source": "com.example.tmusic.app-main-27:/drawable/ic_username.png"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable_music_play_button_color_gradient.xml.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-main-27:\\drawable\\music_play_button_color_gradient.xml"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.tmusic.app-main-27:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\layout_activity_modify.xml.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-main-27:\\layout\\activity_modify.xml"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-hdpi_ic_user.png.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-hdpi/ic_user.png"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\layout_activity_authors.xml.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-main-27:\\layout\\activity_authors.xml"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-xhdpi/ic_launcher_background.png"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-main-27:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-ldpi_ic_logout.png.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-ldpi/ic_logout.png"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.tmusic.app-main-27:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-main-27:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable_bg_signin.jpg.flat",
-        "source": "com.example.tmusic.app-main-27:/drawable/bg_signin.jpg"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-main-27:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-xhdpi_ic_user.png.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-xhdpi/ic_user.png"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable_bg_signup.jpg.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-main-27:\\drawable\\bg_signup.jpg"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-hdpi_ic_logout.png.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-hdpi/ic_logout.png"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\layout_activity_player.xml.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-main-27:\\layout\\activity_player.xml"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable_ic_tmusic.png.flat",
-        "source": "com.example.tmusic.app-main-27:/drawable/ic_tmusic.png"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\layout_authors_recycle_view_template.xml.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-main-27:\\layout\\authors_recycle_view_template.xml"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/menu_button_nav_template.xml.flat",
-        "source": "com.example.tmusic.app-main-27:/menu/button_nav_template.xml"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-main-27:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-xxxhdpi_ic_person.png.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-xxxhdpi/ic_person.png"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\layout_activity_signin.xml.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-main-27:\\layout\\activity_signin.xml"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable_bg_signup.jpg.flat",
-        "source": "com.example.tmusic.app-main-27:/drawable/bg_signup.jpg"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-main-27:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-xxhdpi_ic_user.png.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-xxhdpi/ic_user.png"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-main-27:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-ldpi_ic_launcher_background.png.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-ldpi/ic_launcher_background.png"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-main-27:\\layout\\activity_signup.xml"
     },
     {
-        "merged": "com.example.tmusic.app-merged_res-25:/drawable-hdpi_ic_password.png.flat",
-        "source": "com.example.tmusic.app-pngs-20:/drawable-hdpi/ic_password.png"
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable_ic_username.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-main-27:\\drawable\\ic_username.png"
+    },
+    {
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-xxhdpi_ic_logout.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-xxhdpi\\ic_logout.png"
+    },
+    {
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-hdpi_ic_person.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-hdpi\\ic_person.png"
+    },
+    {
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-ldpi_ic_user.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-ldpi\\ic_user.png"
+    },
+    {
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-xhdpi_ic_user.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-xhdpi\\ic_user.png"
+    },
+    {
+        "merged": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-merged_res-25:\\drawable-ldpi_ic_person.png.flat",
+        "source": "C:\\Users\\badio\\.gradle\\daemon\\7.4\\com.example.tmusic.app-pngs-20:\\drawable-ldpi\\ic_person.png"
     }
 ]

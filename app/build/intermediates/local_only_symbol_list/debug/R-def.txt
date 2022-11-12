@@ -43,6 +43,7 @@ id imageView
 id imgPassword
 id imgUser
 id listAuthors
+id listSongs
 id menuItemLogOut
 id menuItemProfile
 id password

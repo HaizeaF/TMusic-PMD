@@ -32,11 +32,21 @@ public class DataBaseHelper extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase db, int i, int i1) {
 
     }
+
     Cursor listaAutores(){
-        SQLiteDatabase db = this.getWritableDatabase();
+        SQLiteDatabase db = this.getReadableDatabase();
         Cursor cursor = null;
         if (db != null){
             cursor = db.rawQuery("SELECT * FROM author", null);
+        }
+        return cursor;
+    }
+
+    Cursor listaCanciones(Integer author){
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor cursor = null;
+        if(db != null) {
+            cursor = db.rawQuery("SELECT * FROM MUSIC WHERE author_id = "+author, null);
         }
         return cursor;
     }

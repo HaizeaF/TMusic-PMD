@@ -2775,6 +2775,7 @@ int id line3 0x7f0800f8
 int id linear 0x7f0800f9
 int id listAuthors 0x7f0800fa
 int id listMode 0x7f0800fb
+int id listSongs 0x7f0801f6
 int id list_item 0x7f0800fc
 int id masked 0x7f0800fd
 int id match_constraint 0x7f0800fe

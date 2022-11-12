@@ -1,11 +1,13 @@
 package com.example.tmusic;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Toast;
 
@@ -28,6 +30,7 @@ public class AuthorsActivity extends AppCompatActivity implements BottomNavigati
     private ArrayList<Integer> arrayListId;
     private ArrayList<String> arrayListAuthorName;
     private BottomNavigationView bottomNavigationView;
+    public static int SONGS_ACTIVITY = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,7 +58,12 @@ public class AuthorsActivity extends AppCompatActivity implements BottomNavigati
         storeDataInArrays();
 
         //Mete los datos de las arrayList en el RecyclerView
-        listAuthorsAdapter = new CustomAdapter(arrayListId, arrayListAuthorName, this);
+        listAuthorsAdapter = new CustomAdapter(arrayListId, arrayListAuthorName, this, new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openSongs(arrayListId.get(listAuthors.indexOfChild(view)));
+            }
+        });
         listAuthors.setAdapter(listAuthorsAdapter);
 
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
@@ -69,7 +77,7 @@ public class AuthorsActivity extends AppCompatActivity implements BottomNavigati
         });
     }
 
-    void storeDataInArrays(){
+    public void storeDataInArrays(){
         Cursor cursor = conn.listaAutores();
         if (cursor.getCount() == 0){
             Toast.makeText(this, "No data", Toast.LENGTH_SHORT).show();
@@ -107,5 +115,12 @@ public class AuthorsActivity extends AppCompatActivity implements BottomNavigati
                 return true;
         }
         return false;
+    }
+
+    public void openSongs(Integer author) {
+        Toast.makeText(getApplicationContext(), "Seleccion:"+author, Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(AuthorsActivity.this, SongsActivity.class);
+        intent.putExtra("author", author);
+        startActivityForResult(intent, SONGS_ACTIVITY);
     }
 }
