@@ -9,4 +9,8 @@
     <string name="text_confirmPasswd">Confirm Password</string>
     <string name="text_alreadyAccount">Already have an account?</string>
     <string name="text_signIn">Sign In</string>
+    <string name="textSongName">Always Running</string>
+    <string name="textSongAuthor">Arthur SONGS</string>
+    <string name="textElapsedTime">1:57</string>
+    <string name="textTimeLeft">2:30</string>
 </resources>
