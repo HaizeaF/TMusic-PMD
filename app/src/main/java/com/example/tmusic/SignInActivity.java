@@ -3,6 +3,8 @@ package com.example.tmusic;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.database.Cursor;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -37,9 +39,18 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
     public void onClick(View v) {
         Button buttonClicked = (Button) findViewById(v.getId());
         if(buttonClicked.equals(findViewById(R.id.buttonSignIn))){
-
+            DataBaseHelper dbh = new DataBaseHelper(getApplicationContext());
+            Boolean result = dbh.checkusernamepassword(textUser.getText().toString(), textPassword.getText().toString());
+            if(result){
+                Intent intent = new Intent(SignInActivity.this, AuthorsActivity.class);
+                Cursor cursor = dbh.getWritableDatabase().rawQuery("Select email from users where username = ? and password = ?", new String[] {textUser.getText().toString(), textPassword.getText().toString()});
+                String email = cursor.getString(0);
+                intent.putExtra("email", email);
+                startActivity(intent);
+            }
         } else if(buttonClicked.equals(findViewById(R.id.goSignUp))){
-
+            Intent intent = new Intent(SignInActivity.this, SignUpActivity.class);
+            startActivity(intent);
         }
     }
 }

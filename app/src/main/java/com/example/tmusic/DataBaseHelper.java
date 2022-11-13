@@ -1,5 +1,4 @@
 package com.example.tmusic;
-
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -63,5 +62,14 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 
         }
         return false;
+    }
+
+    public boolean checkusernamepassword(String username, String passwod){
+        SQLiteDatabase MyDB = this.getWritableDatabase();
+        Cursor cursor = MyDB.rawQuery("Select * from USERS where username = ? and passwod = ?", new String[] {username,passwod});
+        if(cursor.getCount()>0)
+            return true;
+        else
+            return false;
     }
 }
