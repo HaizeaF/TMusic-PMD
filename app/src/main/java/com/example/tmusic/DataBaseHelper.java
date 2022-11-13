@@ -46,7 +46,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor cursor = null;
         if(db != null) {
-            cursor = db.rawQuery("SELECT * FROM MUSIC WHERE author_id = "+author, null);
+            cursor = db.rawQuery("SELECT m.song_id, a.name, m.name FROM MUSIC m, AUTHOR a WHERE m.author_id = a.author_id AND m.author_id = "+author, null);
         }
         return cursor;
     }

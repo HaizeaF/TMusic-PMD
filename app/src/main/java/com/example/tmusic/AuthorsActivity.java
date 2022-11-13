@@ -3,11 +3,8 @@ package com.example.tmusic;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.MenuItem;
-import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Toast;
 
@@ -24,13 +21,13 @@ import java.util.ArrayList;
 public class AuthorsActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener{
 
     private RecyclerView listAuthors;
-    private CustomAdapter listAuthorsAdapter;
+    private CustomAdapterAuthor listAuthorsAdapter;
     private LinearLayoutManager listAuthorsLayoutManager;
     private DataBaseHelper conn = null;
     private ArrayList<Integer> arrayListId;
     private ArrayList<String> arrayListAuthorName;
     private BottomNavigationView bottomNavigationView;
-    public static int SONGS_ACTIVITY = 1;
+    private String email;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,7 +55,7 @@ public class AuthorsActivity extends AppCompatActivity implements BottomNavigati
         storeDataInArrays();
 
         //Mete los datos de las arrayList en el RecyclerView
-        listAuthorsAdapter = new CustomAdapter(arrayListId, arrayListAuthorName, this, new View.OnClickListener() {
+        listAuthorsAdapter = new CustomAdapterAuthor(arrayListId, arrayListAuthorName, this, new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 openSongs(arrayListId.get(listAuthors.indexOfChild(view)));
@@ -93,6 +90,9 @@ public class AuthorsActivity extends AppCompatActivity implements BottomNavigati
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menuItemProfile:
+                Intent intent = new Intent(getApplicationContext(), ModifyActivity.class);
+                intent.putExtra("email", email);
+                startActivity(intent);
                 return true;
             case R.id.menuItemLogOut:
 
@@ -103,6 +103,8 @@ public class AuthorsActivity extends AppCompatActivity implements BottomNavigati
                 builder.setPositiveButton("Confirm", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
+                        Intent intent = new Intent(getApplicationContext(), SignInActivity.class);
+                        startActivity(intent);
                     }
                 });
                 builder.setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
@@ -118,9 +120,9 @@ public class AuthorsActivity extends AppCompatActivity implements BottomNavigati
     }
 
     public void openSongs(Integer author) {
-        Toast.makeText(getApplicationContext(), "Seleccion:"+author, Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(AuthorsActivity.this, SongsActivity.class);
+        Intent intent = new Intent(getApplicationContext(), SongsActivity.class);
         intent.putExtra("author", author);
-        startActivityForResult(intent, SONGS_ACTIVITY);
+        startActivity(intent);
+        finish();
     }
 }
