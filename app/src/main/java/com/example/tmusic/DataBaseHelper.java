@@ -4,11 +4,8 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.widget.Toast;
-
 import androidx.annotation.Nullable;
 
-import java.util.ArrayList;
 
 public class DataBaseHelper extends SQLiteOpenHelper {
 
@@ -64,12 +61,23 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         return false;
     }
 
-    public boolean checkusernamepassword(String username, String passwod){
+    public Cursor checkusernamepassword(String username, String password){
         SQLiteDatabase MyDB = this.getWritableDatabase();
-        Cursor cursor = MyDB.rawQuery("Select * from USERS where username = ? and passwod = ?", new String[] {username,passwod});
-        if(cursor.getCount()>0)
-            return true;
-        else
-            return false;
+        Cursor cursor = null;
+        if(MyDB != null){
+            cursor = MyDB.rawQuery("Select * from USERS where username = ? and password = ?", new String[] {username,password});
+        }
+        return cursor;
+    }
+
+    public String getEmail(String username, String password){
+        SQLiteDatabase MyDB = this.getWritableDatabase();
+        Cursor cursor = null;
+        String email = null;
+        if (MyDB != null){
+            cursor = MyDB.rawQuery("Select email from USERS where username = ? and password = ?", new String[] {username, password});
+            email = cursor.getString(0);
+        }
+        return email;
     }
 }

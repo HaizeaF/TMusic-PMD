@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 public class SignInActivity extends AppCompatActivity implements View.OnClickListener {
     private Button buttonSignIn;
@@ -40,11 +41,13 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
         Button buttonClicked = (Button) findViewById(v.getId());
         if(buttonClicked.equals(findViewById(R.id.buttonSignIn))){
             DataBaseHelper dbh = new DataBaseHelper(getApplicationContext());
-            Boolean result = dbh.checkusernamepassword(textUser.getText().toString(), textPassword.getText().toString());
-            if(result){
+            Cursor cursor = dbh.checkusernamepassword(textUser.getText().toString(), textPassword.getText().toString());
+            if(cursor.getCount() == 0) {
+                Toast.makeText(this, "User doesn't exist", Toast.LENGTH_SHORT).show();
+            }else{
                 Intent intent = new Intent(SignInActivity.this, AuthorsActivity.class);
-                Cursor cursor = dbh.getWritableDatabase().rawQuery("Select email from users where username = ? and password = ?", new String[] {textUser.getText().toString(), textPassword.getText().toString()});
-                String email = cursor.getString(0);
+                //Cursor cursor2 = dbh.getEmail(textUser.getText().toString(), textPassword.getText().toString());
+                String email = dbh.getEmail(textUser.getText().toString(), textPassword.getText().toString());
                 intent.putExtra("email", email);
                 startActivity(intent);
             }
