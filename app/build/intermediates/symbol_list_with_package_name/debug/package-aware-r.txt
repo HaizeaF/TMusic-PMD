@@ -2443,6 +2443,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable bg_modify
 drawable bg_signin
 drawable bg_signup
 drawable btn_checkbox_checked_mtrl
@@ -2624,9 +2625,9 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id buttonHome
 id buttonPanel
-id buttonSignIn
-id buttonSignUp
+id buttonUpdate
 id cache_measures
 id callMeasure
 id cancel_button
@@ -2970,7 +2971,7 @@ id text2
 id textAlready
 id textEmail
 id textEnd
-id textSignUp
+id textModify
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -3345,6 +3346,7 @@ string path_password_strike_through
 string search_menu_title
 string status_bar_notification_info_overflow
 string text_alreadyAccount
+string text_alreadyExist
 string text_confirmPasswd
 string text_email
 string text_errorConfirmPasswd
@@ -3353,6 +3355,9 @@ string text_errorEmail
 string text_errorPasswd
 string text_errorUser
 string text_go_to_SignUp
+string text_home
+string text_modify
+string text_modifyProfile
 string text_passwd
 string text_signIn
 string text_signUp

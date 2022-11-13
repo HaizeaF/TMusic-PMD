@@ -52,6 +52,10 @@
         "source": "com.example.tmusic.app-main-27:/drawable/ic_email.png"
     },
     {
+        "merged": "com.example.tmusic.app-merged_res-25:/drawable_bg_modify.jpg.flat",
+        "source": "com.example.tmusic.app-main-27:/drawable/bg_modify.jpg"
+    },
+    {
         "merged": "com.example.tmusic.app-merged_res-25:/drawable-ldpi_ic_password.png.flat",
         "source": "com.example.tmusic.app-pngs-20:/drawable-ldpi/ic_password.png"
     },

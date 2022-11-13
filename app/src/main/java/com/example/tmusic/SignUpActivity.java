@@ -64,9 +64,12 @@ public class SignUpActivity extends AppCompatActivity {
                 }
                 if (correct) {
                     DataBaseHelper dbHelper = new DataBaseHelper(SignUpActivity.this);
-                    if (dbHelper.doSignUp(textUsername.getText().toString(),textEmail.getText().toString(),password.getText().toString())) {
+                    if (dbHelper.doSignUp(textUsername.getText().toString(),textEmail.getText().toString(),password.getText().toString()).equals('O')) {
                         Intent intent = new Intent (SignUpActivity.this, SignInActivity.class);
                         startActivity(intent);
+                    } else if (dbHelper.doSignUp(textUsername.getText().toString(),textEmail.getText().toString(),password.getText().toString()).equals('A')){
+                        Toast toast = Toast.makeText(getApplicationContext(),getString(R.string.text_alreadyExist), Toast.LENGTH_SHORT);
+                        toast.show();
                     } else {
                         Toast toast = Toast.makeText(getApplicationContext(),getString(R.string.text_errorDB), Toast.LENGTH_SHORT);
                         toast.show();

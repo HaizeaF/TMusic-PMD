@@ -60,7 +60,7 @@ public class ModifyActivity extends AppCompatActivity {
                 }
                 if (correct) {
                     DataBaseHelper dbHelper = new DataBaseHelper(ModifyActivity.this);
-                    if (dbHelper.doUpdate(textUsername.getText().toString(), email, password.getText().toString())) {
+                    if (dbHelper.doUpdate(textUsername.getText().toString(), email, password.getText().toString()).equals('O')) {
                         Intent intent = new Intent(ModifyActivity.this, AuthorsActivity.class);
                         startActivity(intent);
                     } else {

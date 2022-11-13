@@ -1702,6 +1702,7 @@
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="text_alreadyAccount">Already have an account?</string>
+    <string name="text_alreadyExist">This account already exists</string>
     <string name="text_confirmPasswd">Confirm Password</string>
     <string name="text_email">Email</string>
     <string name="text_errorConfirmPasswd">This passwords didnt match</string>
@@ -1710,6 +1711,9 @@
     <string name="text_errorPasswd">The password must be at least 8 characters</string>
     <string name="text_errorUser">The username can not contain blank spaces or be empty</string>
     <string name="text_go_to_SignUp">Dont you have an account?</string>
+    <string name="text_home">Go Home</string>
+    <string name="text_modify">Update</string>
+    <string name="text_modifyProfile">Modify Profile</string>
     <string name="text_passwd">Password</string>
     <string name="text_signIn">Sign In</string>
     <string name="text_signUp">Sign Up</string>

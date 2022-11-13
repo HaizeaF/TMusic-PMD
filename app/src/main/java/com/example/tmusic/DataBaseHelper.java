@@ -3,6 +3,7 @@ package com.example.tmusic;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
+import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.widget.Toast;
@@ -43,54 +44,58 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         return cursor;
     }
 
-    public boolean doSignUp(String username, String email, String passwd) {
+    public Character doSignUp(String username, String email, String passwd) {
         SQLiteDatabase db = this.getWritableDatabase();
         Cursor cursor = null;
         if (db != null){
             String selectionArgs[] = new String[]{email};
             cursor = db.rawQuery("SELECT * FROM USERS WHERE email LIKE ?", selectionArgs);
             if (cursor.moveToNext()) {
-                return false;
+                return 'A';
             } else {
                 ContentValues cv = new ContentValues();
+                Integer user_id = null;
 
+                cv.put("user_id",user_id);
                 cv.put("username", username);
                 cv.put("email", email);
-                cv.put("passwd", passwd);
-                long result = db.insert("USERS",null,cv);
-                if (result == -1) {
-                    Toast.makeText(context,"Failed Sign Up request. Try again later", Toast.LENGTH_LONG).show();
-                    return false;
-                } else {
-                    Toast.makeText(context, "SignUp successfully done", Toast.LENGTH_LONG).show();
-                    return true;
+                cv.put("password", passwd);
+                try {
+                    long result = db.insert("USERS",null,cv);
+                    if (result == -1) {
+                        Toast.makeText(context,"Failed Sign Up request. Try again later", Toast.LENGTH_LONG).show();
+                        return 'E';
+                    } else {
+                        Toast.makeText(context, "SignUp successfully done", Toast.LENGTH_LONG).show();
+                        return 'O';
+                    }
+                }catch (SQLException ex) {
+                    System.out.println(ex.getStackTrace());
                 }
             }
         }
-        return false;
+        return 'D';
     }
-    public boolean doUpdate(String username, String email, String passwd) {
+    public Character doUpdate(String username, String email, String passwd) {
         SQLiteDatabase db = this.getWritableDatabase();
         Cursor cursor = null;
         if (db != null){
             String selectionArgs[] = new String[]{email};
             cursor = db.rawQuery("SELECT * FROM USERS WHERE email LIKE ?", selectionArgs);
             if (cursor.moveToNext()) {
-                return false;
-            } else {
                 ContentValues cv = new ContentValues();
                 cv.put("username", username);
-                cv.put("passwd", passwd);
+                cv.put("password", passwd);
                 long result = db.update("USERS", cv,"_email=?",selectionArgs);
                 if (result == -1) {
                     Toast.makeText(context,"Failed update request. Try again later", Toast.LENGTH_LONG).show();
-                    return false;
+                    return 'E';
                 } else {
                     Toast.makeText(context, "Update successfully done", Toast.LENGTH_LONG).show();
-                    return true;
+                    return 'O';
                 }
             }
         }
-        return false;
+        return 'D';
     }
 }
