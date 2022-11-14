@@ -42,6 +42,7 @@ public class SongsActivity extends AppCompatActivity implements  BottomNavigatio
         listSongs = findViewById(R.id.listSongs);
         Bundle extras = getIntent().getExtras();
         author = extras.getInt("author");
+        email = extras.getString("email");
 
         songsId = new ArrayList<>();
         authorName = new ArrayList<>();
@@ -85,6 +86,7 @@ public class SongsActivity extends AppCompatActivity implements  BottomNavigatio
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), AuthorsActivity.class);
+                intent.putExtra("email", email);
                 startActivity(intent);
                 finish();
             }
