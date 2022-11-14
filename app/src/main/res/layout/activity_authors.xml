@@ -20,8 +20,9 @@
             android:layout_height="70dp"
             android:padding="7dp"
             app:menu="@menu/button_nav_template"
-            app:itemTextColor="@color/black"
-            app:itemIconTint="@color/black">
+            app:itemTextColor="@color/white"
+            app:itemIconTint="@color/white"
+            android:background="@color/black">
 
         </com.google.android.material.bottomnavigation.BottomNavigationView>
     </FrameLayout>
