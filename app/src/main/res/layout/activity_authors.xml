@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/music_play_button_color_gradient"
     tools:context=".AuthorsActivity">
 
     <FrameLayout
@@ -19,8 +20,9 @@
             android:layout_height="70dp"
             android:padding="7dp"
             app:menu="@menu/button_nav_template"
-            app:itemTextColor="@color/black"
-            app:itemIconTint="@color/black">
+            app:itemTextColor="@color/white"
+            app:itemIconTint="@color/white"
+            android:background="@color/black">
 
         </com.google.android.material.bottomnavigation.BottomNavigationView>
     </FrameLayout>
