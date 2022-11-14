@@ -40,6 +40,7 @@ public class SongsActivity extends AppCompatActivity implements  BottomNavigatio
         listSongs = findViewById(R.id.listSongs);
         Bundle extras = getIntent().getExtras();
         author = extras.getInt("author");
+        email = extras.getString("email");
 
         songsId = new ArrayList<>();
         authorName = new ArrayList<>();

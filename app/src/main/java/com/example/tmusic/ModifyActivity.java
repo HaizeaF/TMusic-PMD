@@ -17,6 +17,7 @@ public class ModifyActivity extends AppCompatActivity {
     private EditText confirmPassword = null;
     private Button buttonHome = null;
     private Button buttonUpdate = null;
+    private String email = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +25,7 @@ public class ModifyActivity extends AppCompatActivity {
         setContentView(R.layout.activity_modify);
 
         Bundle extra = getIntent().getExtras();
-        String email = extra.getString("EMAIL");
+        email = extra.getString("email");
 
         textUsername = (EditText) findViewById(R.id.textUser);
         password = (EditText) findViewById(R.id.password);
@@ -42,7 +43,6 @@ public class ModifyActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Boolean correct = true;
-                String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
                 if (textUsername.getText().toString().contains(" ") || textUsername.getText().toString().isEmpty()) {
                     Toast toast = Toast.makeText(getApplicationContext(), getString(R.string.text_errorUser), Toast.LENGTH_SHORT);
                     toast.show();
@@ -60,7 +60,7 @@ public class ModifyActivity extends AppCompatActivity {
                 }
                 if (correct) {
                     DataBaseHelper dbHelper = new DataBaseHelper(ModifyActivity.this);
-                    if (dbHelper.doUpdate(textUsername.getText().toString(), email, password.getText().toString()).equals('O')) {
+                    if (dbHelper.doUpdateData(textUsername.getText().toString(), email, password.getText().toString())) {
                         Intent intent = new Intent(ModifyActivity.this, AuthorsActivity.class);
                         startActivity(intent);
                     } else {

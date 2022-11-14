@@ -104,7 +104,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         }
         return 'D';
     }
-    public Character doUpdate(String username, String email, String passwd) {
+    public Boolean doUpdateData(String username, String email, String passwd) {
         SQLiteDatabase db = this.getWritableDatabase();
         Cursor cursor = null;
         if (db != null){
@@ -113,17 +113,18 @@ public class DataBaseHelper extends SQLiteOpenHelper {
             if (cursor.moveToNext()) {
                 ContentValues cv = new ContentValues();
                 cv.put("username", username);
+                cv.put("email", email);
                 cv.put("password", passwd);
-                long result = db.update("USERS", cv,"_email=?",selectionArgs);
+                long result = db.update(TABLE_USERS, cv,"email=?",selectionArgs);
                 if (result == -1) {
                     Toast.makeText(context,"Failed update request. Try again later", Toast.LENGTH_LONG).show();
-                    return 'E';
+                    return false;
                 } else {
                     Toast.makeText(context, "Update successfully done", Toast.LENGTH_LONG).show();
-                    return 'O';
+                    return true;
                 }
             }
         }
-        return 'D';
+        return false;
     }
 }
