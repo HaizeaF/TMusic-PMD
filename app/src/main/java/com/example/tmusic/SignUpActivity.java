@@ -53,7 +53,7 @@ public class SignUpActivity extends AppCompatActivity {
                     correct = false;
                 }
                 if (password.getText().toString().length() < 8) {
-                    Toast toast = Toast.makeText(getApplicationContext(),getString(R.string.text_errorEmail), Toast.LENGTH_SHORT);
+                    Toast toast = Toast.makeText(getApplicationContext(),getString(R.string.text_errorPasswd), Toast.LENGTH_SHORT);
                     toast.show();
                     correct = false;
                 }

@@ -60,9 +60,12 @@ public class ModifyActivity extends AppCompatActivity {
                 }
                 if (correct) {
                     DataBaseHelper dbHelper = new DataBaseHelper(ModifyActivity.this);
-                    if (dbHelper.doUpdateData(textUsername.getText().toString(), email, password.getText().toString())) {
+                    if (dbHelper.doUpdateData(textUsername.getText().toString(), email, password.getText().toString()).equals('O')) {
                         Intent intent = new Intent(ModifyActivity.this, AuthorsActivity.class);
                         startActivity(intent);
+                    } else if(dbHelper.doUpdateData(textUsername.getText().toString(), email, password.getText().toString()).equals('A')) {
+                        Toast toast = Toast.makeText(getApplicationContext(), getString(R.string.text_alreadyExist), Toast.LENGTH_SHORT);
+                        toast.show();
                     } else {
                         Toast toast = Toast.makeText(getApplicationContext(), getString(R.string.text_errorDB), Toast.LENGTH_SHORT);
                         toast.show();

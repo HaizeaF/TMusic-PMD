@@ -76,8 +76,8 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getWritableDatabase();
         Cursor cursor = null;
         if (db != null){
-            String selectionArgs[] = new String[]{email};
-            cursor = db.rawQuery("SELECT * FROM USERS WHERE email LIKE ?", selectionArgs);
+            String selectionArgs[] = new String[]{email,username};
+            cursor = db.rawQuery("SELECT * FROM USERS WHERE email LIKE ? OR username LIKE ?", selectionArgs);
             if (cursor.moveToNext()) {
                 return 'A';
             } else {
@@ -104,27 +104,29 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         }
         return 'D';
     }
-    public Boolean doUpdateData(String username, String email, String passwd) {
+    public Character doUpdateData(String username, String email, String passwd) {
         SQLiteDatabase db = this.getWritableDatabase();
         Cursor cursor = null;
         if (db != null){
-            String selectionArgs[] = new String[]{email};
-            cursor = db.rawQuery("SELECT * FROM USERS WHERE email LIKE ?", selectionArgs);
+            String selectionArgs[] = new String[]{username};
+            cursor = db.rawQuery("SELECT * FROM USERS WHERE username LIKE ?", selectionArgs);
             if (cursor.moveToNext()) {
+                return 'A';
+            } else {
                 ContentValues cv = new ContentValues();
                 cv.put("username", username);
                 cv.put("email", email);
                 cv.put("password", passwd);
-                long result = db.update(TABLE_USERS, cv,"email=?",selectionArgs);
+                long result = db.update(TABLE_USERS, cv,"email=?",new String[] {email});
                 if (result == -1) {
                     Toast.makeText(context,"Failed update request. Try again later", Toast.LENGTH_LONG).show();
-                    return false;
+                    return 'E';
                 } else {
                     Toast.makeText(context, "Update successfully done", Toast.LENGTH_LONG).show();
-                    return true;
+                    return 'O';
                 }
             }
         }
-        return false;
+        return 'D';
     }
 }
