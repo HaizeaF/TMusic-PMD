@@ -36,6 +36,9 @@ public class AuthorsActivity extends AppCompatActivity implements BottomNavigati
 
         listAuthors = findViewById(R.id.listAuthors);
 
+        Bundle extra = getIntent().getExtras();
+        email = extra.getString("email");
+
         arrayListId = new ArrayList<>();
         arrayListAuthorName = new ArrayList<>();
 
