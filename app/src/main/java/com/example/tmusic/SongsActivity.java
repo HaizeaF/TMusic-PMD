@@ -6,6 +6,8 @@ import android.database.Cursor;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -30,7 +32,7 @@ public class SongsActivity extends AppCompatActivity implements  BottomNavigatio
     private Integer author;
     private BottomNavigationView bottomNavigationView;
     private String email;
-
+    private ImageButton buttonBack;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,6 +71,7 @@ public class SongsActivity extends AppCompatActivity implements  BottomNavigatio
         listSongs.setAdapter(listSongsAdapter);
 
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
+        buttonBack = findViewById(R.id.buttonBack);
         bottomNavigationView.setOnItemSelectedListener(item -> {
             if(item.toString().equalsIgnoreCase("Profile")){
                 onNavigationItemSelected(bottomNavigationView.getMenu().getItem(0));
@@ -76,6 +79,15 @@ public class SongsActivity extends AppCompatActivity implements  BottomNavigatio
                 onNavigationItemSelected(bottomNavigationView.getMenu().getItem(1));
             }
             return true;
+        });
+
+        buttonBack.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), AuthorsActivity.class);
+                startActivity(intent);
+                finish();
+            }
         });
     }
 
