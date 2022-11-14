@@ -76,7 +76,8 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         String email = null;
         if (MyDB != null){
             cursor = MyDB.rawQuery("Select * from USERS where username = ? and password = ?", new String[] {username, password});
-            email = cursor.getString(2);
+            if(cursor.moveToNext())
+                email = cursor.getString(2);
         }
         return email;
     }
