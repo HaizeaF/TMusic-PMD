@@ -35,30 +35,6 @@ public class SignInActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signin);
 
-        /*db = openOrCreateDatabase("tmusic", Context.MODE_PRIVATE, null);
-        db.execSQL("CREATE TABLE IF NOT EXISTS author (author_id INTEGER PRIMARY KEY AUTOINCREMENT," +
-                                            "name VARCHAR)");
-        db.execSQL("CREATE TABLE IF NOT EXISTS music(" +
-                "song_id INTEGER PRIMARY KEY AUTOINCREMENT," +
-                "author_id INTEGER," +
-                "name VARCHAR," +
-                "FOREIGN KEY (author_id) REFERENCES AUTHOR(author_id) ON DELETE CASCADE" +
-                ")");
-        db.execSQL("CREATE TABLE IF NOT EXISTS users (user_id INTEGER PRIMARY KEY AUTOINCREMENT, username VARCHAR, email VARCHAR, password VARCHAR)");
-        db.execSQL("INSERT INTO author (author_id, name) VALUES (null, 'Yeat'), (null, 'Eros'), (null, 'CharlieUSG'), (null, 'Dio'), (null, 'TwentyOnePilots'), (null, 'KanyeWest')");
-        db.execSQL("INSERT INTO music (song_id, author_id, name) VALUES (null, 1, 'Dub')," +
-                                            "(null, 1, 'Krank')," +
-                                            "(null, 2, 'Sakanigadik')," +
-                                            "(null, 3, 'LoQueNuncaTeDije')," +
-                                            "(null, 3, 'MeDaIgual')," +
-                                            "(null, 4, 'EndOfTheWorld')," +
-                                            "(null, 4, 'RainbowInTheDark')," +
-                                            "(null, 4, 'MasterOfTheMoon')," +
-                                            "(null, 5, 'Ride')," +
-                                            "(null, 5, 'ShyAway')," +
-                                            "(null, 6, 'DarkFantasy')");
-        db.execSQL("INSERT INTO users (user_id, username, email, password) VALUES (null, 'userTest', 'userTest@gmail.com', 'abcd*1234')");*/
-
         db = new DataBaseHelper(getApplicationContext());
 
         buttonSignIn = (Button) findViewById(R.id.buttonSignIn);
