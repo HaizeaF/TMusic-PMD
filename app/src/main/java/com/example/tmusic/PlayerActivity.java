@@ -84,14 +84,10 @@ public class PlayerActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(!mediaPlayer.isLooping()){
-                    //buttonLoop.setBackgroundResource(R.drawable.music_loop_button_background_true);
-                    //buttonLoop.setImageResource(R.drawable.ic_music_loop_true);
                     Toast toast =Toast.makeText(getApplicationContext(),"Not implemented", Toast.LENGTH_SHORT);
                     toast.show();
 
                 }else{
-                    //buttonLoop.setBackgroundResource(R.drawable.music_loop_button_background_false);
-                    //buttonLoop.setImageResource(R.drawable.ic_music_loop_false);
                     Toast toast =Toast.makeText(getApplicationContext(),"Not implemented", Toast.LENGTH_SHORT);
                     toast.show();
                 }
@@ -216,27 +212,6 @@ public class PlayerActivity extends AppCompatActivity {
         }).start();
     }
 
-    private void play() {
-
-        if (videoSong != null && !videoSong.isPlaying()) {
-            buttonStartPause.setBackgroundResource(R.drawable.ic_music_pause);
-            videoSong.start();
-            mediaPlayer.start();
-        } else {
-            pause();
-        }
-
-    }
-
-    private void pause() {
-        if (videoSong.isPlaying()) {
-            buttonStartPause.setBackgroundResource(R.drawable.ic_music_play);
-            videoSong.pause();
-            mediaPlayer.pause();
-
-        }
-
-    }
 
     @SuppressLint("HandlerLeak")
     private Handler handler = new Handler() {
