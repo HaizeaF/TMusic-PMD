@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backgroundblue_signin">
+    android:background="@drawable/background_signin">
 
     <EditText
         android:id="@+id/editTextTextPersonName"
