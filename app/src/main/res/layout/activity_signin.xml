@@ -26,25 +26,6 @@
         android:backgroundTint="@color/white"
         tools:ignore="TextContrastCheck" />
 
-    <Button
-        android:id="@+id/goSignUp"
-        android:layout_width="125dp"
-        android:layout_height="48dp"
-        android:background="@android:color/transparent"
-        android:text="@string/text_signUp"
-        android:textAllCaps="false"
-        android:textColor="@color/blue1"
-        android:textSize="14sp"
-        app:backgroundTint="@android:color/transparent"
-        app:iconTint="@android:color/transparent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.83"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.865"
-        tools:ignore="TextContrastCheck" />
-
     <ImageView
         android:id="@+id/imgPassword"
         android:layout_width="52dp"
@@ -87,10 +68,43 @@
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.848" />
+        app:layout_constraintVertical_bias="0.767" />
+
+    <Button
+        android:id="@+id/goSignUp"
+        android:layout_width="125dp"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent"
+        android:text="@string/text_signUp"
+        android:textAllCaps="false"
+        android:textColor="@color/blue1"
+        android:textSize="14sp"
+        app:backgroundTint="@android:color/transparent"
+        app:iconTint="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.78"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="114dp"
+        android:layout_height="30dp"
+        android:text="@string/social_network"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.887" />
 
     <Button
         android:id="@+id/buttonSignIn"
@@ -106,7 +120,7 @@
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.728" />
+        app:layout_constraintVertical_bias="0.662" />
 
     <ImageView
         android:id="@+id/imgUser"
@@ -147,5 +161,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.116"
         app:srcCompat="@drawable/ic_tmusic" />
+
+    <ImageButton
+        android:id="@+id/instagram"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/instagram"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/transparent"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.961" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

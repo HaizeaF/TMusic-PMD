@@ -98,6 +98,7 @@ public class SongsActivity extends AppCompatActivity implements  BottomNavigatio
         intent.putExtra("author", authorName);
         intent.putExtra("song", song);
         intent.putExtra("authorId", author);
+        intent.putExtra("email", email);
         startActivity(intent);
         finish();
     }
@@ -105,7 +106,7 @@ public class SongsActivity extends AppCompatActivity implements  BottomNavigatio
     private void storeDataInArrays() {
         Cursor cursor = conn.listaCanciones(author);
         if (cursor.getCount() == 0){
-            Toast.makeText(this, "No data", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, R.string.notData, Toast.LENGTH_SHORT).show();
         } else {
             while (cursor.moveToNext()){
                 songsId.add(cursor.getInt(0));

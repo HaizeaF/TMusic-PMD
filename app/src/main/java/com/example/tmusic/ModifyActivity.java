@@ -35,6 +35,7 @@ public class ModifyActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(ModifyActivity.this, AuthorsActivity.class);
+                intent.putExtra("email", email);
                 startActivity(intent);
             }
         });
@@ -62,6 +63,7 @@ public class ModifyActivity extends AppCompatActivity {
                     DataBaseHelper dbHelper = new DataBaseHelper(ModifyActivity.this);
                     if (dbHelper.doUpdateData(textUsername.getText().toString(), email, password.getText().toString()).equals('O')) {
                         Intent intent = new Intent(ModifyActivity.this, AuthorsActivity.class);
+                        intent.putExtra("email", email);
                         startActivity(intent);
                     } else if(dbHelper.doUpdateData(textUsername.getText().toString(), email, password.getText().toString()).equals('A')) {
                         Toast toast = Toast.makeText(getApplicationContext(), getString(R.string.text_alreadyExist), Toast.LENGTH_SHORT);

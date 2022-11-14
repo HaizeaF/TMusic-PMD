@@ -22,4 +22,9 @@
     <string name="text_modify">Update</string>
     <string name="text_home">Go Home</string>
     <string name="text_modifyProfile">Modify Profile</string>
+    <string name="social_network">Social Network</string>
+    <string name="userNotExist">User doesnt exist</string>
+    <string name="notImplemented">Not implemented</string>
+    <string name="linkInstagram">https://www.instagram.com/rokeputoamo99/</string>
+    <string name="notData">not Data</string>
 </resources>

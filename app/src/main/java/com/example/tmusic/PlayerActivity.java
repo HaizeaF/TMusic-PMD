@@ -34,6 +34,7 @@ public class PlayerActivity extends AppCompatActivity {
     private VideoView videoSong;
     private String author;
     private String song;
+    private String email;
     private Integer authorId;
     private Integer songResID;
     private TextView textSongName;
@@ -52,6 +53,7 @@ public class PlayerActivity extends AppCompatActivity {
         author = extras.getString("author");
         authorId = extras.getInt("authorId");
         song = extras.getString("song");
+        email = extras.getString("email");
 
         textSongName = findViewById(R.id.textSongName);
         textSongAuthor = findViewById(R.id.textSongAuthor);
@@ -84,11 +86,11 @@ public class PlayerActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(!mediaPlayer.isLooping()){
-                    Toast toast =Toast.makeText(getApplicationContext(),"Not implemented", Toast.LENGTH_SHORT);
+                    Toast toast =Toast.makeText(getApplicationContext(),R.string.notImplemented, Toast.LENGTH_SHORT);
                     toast.show();
 
                 }else{
-                    Toast toast =Toast.makeText(getApplicationContext(),"Not implemented", Toast.LENGTH_SHORT);
+                    Toast toast =Toast.makeText(getApplicationContext(),R.string.notImplemented, Toast.LENGTH_SHORT);
                     toast.show();
                 }
             }
@@ -99,6 +101,7 @@ public class PlayerActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), SongsActivity.class);
                 intent.putExtra("author", authorId);
+                intent.putExtra("email", email);
                 startActivity(intent);
                 finish();
             }
@@ -107,7 +110,7 @@ public class PlayerActivity extends AppCompatActivity {
         buttonPreviousSong.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast toast =Toast.makeText(getApplicationContext(),"Not implemented", Toast.LENGTH_SHORT);
+                Toast toast =Toast.makeText(getApplicationContext(),R.string.notImplemented, Toast.LENGTH_SHORT);
                 toast.show();
             }
         });
@@ -115,7 +118,7 @@ public class PlayerActivity extends AppCompatActivity {
         buttonNextSong.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast toast =Toast.makeText(getApplicationContext(),"Not implemented", Toast.LENGTH_SHORT);
+                Toast toast =Toast.makeText(getApplicationContext(),R.string.notImplemented, Toast.LENGTH_SHORT);
                 toast.show();
             }
         });

@@ -125,6 +125,7 @@ public class AuthorsActivity extends AppCompatActivity implements BottomNavigati
     public void openSongs(Integer author) {
         Intent intent = new Intent(getApplicationContext(), SongsActivity.class);
         intent.putExtra("author", author);
+        intent.putExtra("email", email);
         startActivity(intent);
         finish();
     }
