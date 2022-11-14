@@ -80,11 +80,10 @@ public class SongsActivity extends AppCompatActivity implements  BottomNavigatio
         });
     }
 
-    private void openSong(String authorName, String song) {
+    private void openSong(String author, String song) {
         Intent intent = new Intent(getApplicationContext(), PlayerActivity.class);
-        intent.putExtra("author", authorName);
+        intent.putExtra("author", author);
         intent.putExtra("song", song);
-        intent.putExtra("authorId", author);
         startActivity(intent);
         finish();
     }
