@@ -117,7 +117,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
                 cv.put("username", username);
                 cv.put("email", email);
                 cv.put("password", passwd);
-                long result = db.update(TABLE_USERS, cv,"email=?",selectionArgs);
+                long result = db.update(TABLE_USERS, cv,"email=?",new String[] {email});
                 if (result == -1) {
                     Toast.makeText(context,"Failed update request. Try again later", Toast.LENGTH_LONG).show();
                     return 'E';
