@@ -13,4 +13,13 @@
     <string name="textSongAuthor">Arthur SONGS</string>
     <string name="textElapsedTime">1:57</string>
     <string name="textTimeLeft">2:30</string>
+    <string name="text_alreadyExist">This account already exists</string>
+    <string name="text_errorDB">Error with the database. Try again later</string>
+    <string name="text_errorEmail">Invalid email or not entered</string>
+    <string name="text_errorUser">The username can not contain blank spaces or be empty</string>
+    <string name="text_errorPasswd">The password must be at least 8 characters</string>
+    <string name="text_errorConfirmPasswd">This passwords didnt match</string>
+    <string name="text_modify">Update</string>
+    <string name="text_home">Go Home</string>
+    <string name="text_modifyProfile">Modify Profile</string>
 </resources>
