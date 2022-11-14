@@ -115,10 +115,8 @@ public class DataBaseHelper extends SQLiteOpenHelper {
                 try {
                     long result = db.insert(TABLE_USERS,null,cv);
                     if (result == -1) {
-                        Toast.makeText(context,"Failed Sign Up request. Try again later", Toast.LENGTH_LONG).show();
                         return 'E';
                     } else {
-                        Toast.makeText(context, "SignUp successfully done", Toast.LENGTH_LONG).show();
                         return 'O';
                     }
                 }catch (SQLException ex) {
@@ -143,10 +141,8 @@ public class DataBaseHelper extends SQLiteOpenHelper {
                 cv.put("password", passwd);
                 long result = db.update(TABLE_USERS, cv,"email=?",new String[] {email});
                 if (result == -1) {
-                    Toast.makeText(context,"Failed update request. Try again later", Toast.LENGTH_LONG).show();
                     return 'E';
                 } else {
-                    Toast.makeText(context, "Update successfully done", Toast.LENGTH_LONG).show();
                     return 'O';
                 }
             }

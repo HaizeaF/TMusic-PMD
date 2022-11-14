@@ -123,6 +123,7 @@ public class SongsActivity extends AppCompatActivity implements  BottomNavigatio
                 Intent intent = new Intent(getApplicationContext(), ModifyActivity.class);
                 intent.putExtra("email", email);
                 startActivity(intent);
+                finish();
                 return true;
             case R.id.menuItemLogOut:
 

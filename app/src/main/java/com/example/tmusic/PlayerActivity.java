@@ -96,16 +96,7 @@ public class PlayerActivity extends AppCompatActivity {
             }
         });
 
-        buttonBack.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), SongsActivity.class);
-                intent.putExtra("author", authorId);
-                intent.putExtra("email", email);
-                startActivity(intent);
-                finish();
-            }
-        });
+
 
         buttonPreviousSong.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -206,6 +197,17 @@ public class PlayerActivity extends AppCompatActivity {
                             msg.what = videoSong.getCurrentPosition();
                             handler.sendMessage(msg);
                             Thread.sleep(1000);
+                            buttonBack.setOnClickListener(new View.OnClickListener(){
+                                @Override
+                                public void onClick(View view) {
+                                    Intent intent = new Intent(getApplicationContext(), SongsActivity.class);
+                                    intent.putExtra("author", authorId);
+                                    intent.putExtra("email", email);
+                                    startActivity(intent);
+                                    finish();
+                                    Thread.interrupted();
+                                }
+                            });
                         }
                     } catch (InterruptedException e) {
                         e.printStackTrace();
