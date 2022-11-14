@@ -1,4 +1,6 @@
 package com.example.tmusic;
+import static android.database.sqlite.SQLiteDatabase.openOrCreateDatabase;
+
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -12,7 +14,7 @@ import androidx.annotation.Nullable;
 
 public class DataBaseHelper extends SQLiteOpenHelper {
 
-    private static final String DATABASE_NAME = "TMusicDB.db";
+    private static final String DATABASE_NAME = "tmusicdb.db";
     private static final int DATABASE_VERSION = 1;
 
     private static final String TABLE_MUSIC = "music";
@@ -27,6 +29,28 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
+        db.execSQL("CREATE TABLE IF NOT EXISTS author (author_id INTEGER PRIMARY KEY AUTOINCREMENT," +
+                "name VARCHAR)");
+        db.execSQL("CREATE TABLE IF NOT EXISTS music(" +
+                "song_id INTEGER PRIMARY KEY AUTOINCREMENT," +
+                "author_id INTEGER," +
+                "name VARCHAR," +
+                "FOREIGN KEY (author_id) REFERENCES AUTHOR(author_id) ON DELETE CASCADE" +
+                ")");
+        db.execSQL("CREATE TABLE IF NOT EXISTS users (user_id INTEGER PRIMARY KEY AUTOINCREMENT, username VARCHAR, email VARCHAR, password VARCHAR)");
+        db.execSQL("INSERT INTO author (author_id, name) VALUES (null, 'Yeat'), (null, 'Eros'), (null, 'CharlieUSG'), (null, 'Dio'), (null, 'TwentyOnePilots'), (null, 'KanyeWest')");
+        db.execSQL("INSERT INTO music (song_id, author_id, name) VALUES (null, 1, 'Dub')," +
+                "(null, 1, 'Krank')," +
+                "(null, 2, 'Sakanigadik')," +
+                "(null, 3, 'LoQueNuncaTeDije')," +
+                "(null, 3, 'MeDaIgual')," +
+                "(null, 4, 'EndOfTheWorld')," +
+                "(null, 4, 'RainbowInTheDark')," +
+                "(null, 4, 'MasterOfTheMoon')," +
+                "(null, 5, 'Ride')," +
+                "(null, 5, 'ShyAway')," +
+                "(null, 6, 'DarkFantasy')");
+        db.execSQL("INSERT INTO users (user_id, username, email, password) VALUES (null, 'userTest', 'userTest@gmail.com', 'abcd*1234')");
     }
 
     @Override
@@ -56,7 +80,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         SQLiteDatabase MyDB = this.getWritableDatabase();
         Cursor cursor = null;
         if(MyDB != null){
-            cursor = MyDB.rawQuery("Select * from USERS where username = ? and password = ?", new String[] {username,password});
+            cursor = MyDB.rawQuery("Select * from users where username = ? and password = ?", new String[] {username,password});
         }
         return cursor;
     }
@@ -66,7 +90,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         Cursor cursor = null;
         String email = null;
         if (MyDB != null){
-            cursor = MyDB.rawQuery("Select * from USERS where username = ? and password = ?", new String[] {username, password});
+            cursor = MyDB.rawQuery("Select * from users where username = ? and password = ?", new String[] {username, password});
             if(cursor.moveToNext())
                 email = cursor.getString(2);
         }
